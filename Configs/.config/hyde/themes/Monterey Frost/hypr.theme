@@ -12,9 +12,7 @@ exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
 exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK_THEME'
 exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
 exec = gsettings set org.gnome.desktop.interface font-name '$FONT'
-exec = gsettings set org.gnome.desktop.interface cursor-theme '$CURSOR_THEME'
-exec = gsettings set org.gnome.desktop.interface cursor-size $CURSOR_SIZE
-exec = hyprctl setcursor $CURSOR_THEME $CURSOR_SIZE
+exec = Hyde cursor theme '$CURSOR_THEME' size $CURSOR_SIZE
 exec = Hyde code theme '$CODE_THEME'
 
 general {
