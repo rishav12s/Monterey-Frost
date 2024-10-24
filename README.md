@@ -27,7 +27,3 @@ and choose Monterey Frost
 ---
 
 or install another theme from [HyDe Gallery](https://github.com/kRHYME7/hyde-gallery)
-
-## Wallpapers
-
-If you want you can copy the wallpapers of the original Catppuccin Latte theme to this theme in order to use them with this or set that theme's wallpaper directory as global to use them without copying
