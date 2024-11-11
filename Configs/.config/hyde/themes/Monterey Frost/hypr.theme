@@ -34,12 +34,6 @@ group {
 
 decoration {
     rounding = 10
-    drop_shadow = false
-    shadow_ignore_window = true
-    shadow_offset = 0 0
-    shadow_range = 15
-    shadow_render_power = 1
-    col.shadow = 0x80ffffff
     active_opacity = 0.9
     inactive_opacity = 0.9
 
@@ -51,6 +45,15 @@ decoration {
         new_optimizations = on
         ignore_opacity = on
         xray = false
+    }
+
+    shadow {
+        enabled = false
+        ignore_window = true
+        offset = 0 0
+        range = 15
+        render_power = 1
+        color = 0x80ffffff
     }
 }
 
