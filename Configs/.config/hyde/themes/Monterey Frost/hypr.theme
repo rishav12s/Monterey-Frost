@@ -4,16 +4,19 @@ $GTK_THEME=WhiteSur-Dark
 $ICON_THEME=WhiteSur
 $COLOR_SCHEME=prefer-dark
 $CURSOR_THEME=macOS-Black
-$CURSOR_SIZE=26                                
-$FONT=SF Pro Rounded Regular 10.5
-$CODE_THEME=MacOS Modern Dark - Xcode Modern
+$CURSOR_SIZE=26
+$FONT=SF Pro Rounded 
+$FONT_STYLE=Regular
+$DOCUMENT_FONT=SF Pro Rounded 
+$MONOSPACE_FONT=SF Pro Rounded 
+$WAYBAR_FONT=SF Pro Rounded 
 
-exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
-exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK_THEME'
-exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
-exec = gsettings set org.gnome.desktop.interface font-name '$FONT'
-exec = Hyde cursor theme '$CURSOR_THEME' size $CURSOR_SIZE
-exec = Hyde code theme '$CODE_THEME'
+# exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
+# exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK_THEME'
+# exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
+# exec = gsettings set org.gnome.desktop.interface font-name '$FONT'
+# exec = Hyde cursor theme '$CURSOR_THEME' size $CURSOR_SIZE
+# exec = Hyde code theme '$CODE_THEME'
 
 general {
     gaps_in = 4
